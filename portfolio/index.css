@@ -173,7 +173,7 @@ nav ul li a:not(.no-effect):hover::after{
     }
 
     .mainside:not(.main){
-        visibility: hidden;
+        /* visibility: hidden; */
     }
 
     #address{
@@ -183,7 +183,7 @@ nav ul li a:not(.no-effect):hover::after{
         display: flex;
         flex-direction: column; 
         width: 150px;
-        margin-left: 40vw;
+        margin-left: 200px;
     }
     .so1{
         display: none;
@@ -227,7 +227,7 @@ nav ul li a:not(.no-effect):hover::after{
 .social{
     display: flex;
     gap: 40px;
-    
+   flex-direction: row; 
     position: relative;
     /* top: 65vh; */
     top: 350px ;
@@ -358,7 +358,8 @@ nav ul li a:not(.no-effect):hover::after{
       margin: 20px 0;
       max-width: 100%;
       text-align: center;
-  }
+     overflow-wrap: break-word;
+    }
 
   #resume{
       display: block;
@@ -523,14 +524,14 @@ nav ul li a:not(.no-effect):hover::after{
 
   #main-skill{
       flex-direction: column;
-      align-items: center;
+      align-items:center;
   }
 
   .logoskill{
       width: 100%;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: start;
   }
 
   .logoicon{
@@ -583,6 +584,14 @@ nav ul li a:not(.no-effect):hover::after{
 #year{
     font-size: 23px;  
 }
+   
+     @media (max-width: 768px){
+         
+        .edumain{
+             margin-left: 20px;
+        }
+    
+    }
  
  /* project section */
  .projectimage{
@@ -690,6 +699,8 @@ nav ul li a:not(.no-effect):hover::after{
       width: 100%;
       margin: 0;
       font-size: 16px;
+      display: flex;
+      flex-direction: column;
   }
 
   .btdetails{
@@ -856,6 +867,9 @@ nav ul li a:not(.no-effect):hover::after{
       width: 90%;
       margin-left: 0;
   }
+   #memo1{
+    display: inline-block;
+   }
 
     }
 
@@ -966,6 +980,7 @@ margin-top: 40px;
 
   .foot{
       height: auto;
+      width: auto;
       padding: 30px;
       border-radius: 40px 40px 0 0;
   }
@@ -977,13 +992,21 @@ margin-top: 40px;
       align-items: center;
       text-align: center;
   }
+   
+  #linkk{
+    margin-left: -30px;
+    margin-top: 40px;
+  }
 
+  .link{
+    margin-top: 40px;
+  }
   .socialll{
-      margin-top: 20px;
+      margin-top: 100px;
   }
 
   .link a{
-      margin: 5px 0;
+      margin: 5px ;
   }
 
    }
