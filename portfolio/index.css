@@ -120,7 +120,10 @@ nav ul li a:not(.no-effect):hover::after{
  }
   /* for mobile response */
   @media (max-width: 745px){
-
+  
+    body{
+        overflow-x: hidden;
+    }
 
     .logo{
         width: 100%;
@@ -226,7 +229,8 @@ nav ul li a:not(.no-effect):hover::after{
     gap: 40px;
     
     position: relative;
-    top: 65vh;
+    /* top: 65vh; */
+    top: 350px ;
     animation: social-icon 3s ease-in-out 2s ;
     z-index: 2;
 } 
