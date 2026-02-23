@@ -108,7 +108,6 @@ nav ul li a:not(.no-effect):hover::after{
     padding: 12px 0% 4px 0px;
     flex-wrap: wrap;
 }
-
  
    #image{
     transform: rotateY(180deg);
@@ -124,110 +123,7 @@ nav ul li a:not(.no-effect):hover::after{
  #addlogo{
     filter: drop-shadow(2px 1px 1px #ff0044b9);
  }
-  /* for mobile response */
-  @media (max-width: 745px){
   
-    body{
-        overflow-x: hidden;
-    }
-
-    .logo{
-        width: 100%;
-        margin-left: 20%;
-    }
-
-     /* .second{
-        flex-direction: column;
-        text-align: center;
-        padding: 100px 20px 20px;
-    } */
-
-    /* #image{
-        margin-top: 30px;
-        max-width: 250px;
-        margin-right: 1vw;
-        justify-content: space-between;
-    } */
-
-     /* ai  */
-     /* .second{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-     }
-      */
-
-      .second{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 120px 8% 60px;
-}
-         #image{
-    width: 220px;
-    margin: 20px 0;
-     }
-
-    nav .mainside{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    
-    #address{
-        margin-left: 60px;
-    }
-    /* .social {
-        display: flex;
-        flex-direction: column; 
-        width: 150px;
-        margin-left: 1%;
-    } */
-   .social{
-    display: flex;
-    flex-direction: column;   /* ek ke niche ek */
-    gap: 20px;
-    align-items: center;
-    margin-top: 20px;
-}
-   .img-icon{
-    display: flex;
-    align-items: center;
-    gap: 40px;
-}
-  }
-
-@media (max-width: 768px){
-
-  nav .mainside{
-      display: none;
-  }
-
-  .sidebar{
-      display: none;
-      position: fixed;
-      top: 0;
-      right: 0;
-      width: 70%;
-      height: 100vh;
-      background: #111;
-      padding-top: 50px;
-  }
-
-  .sidebar li{
-      margin: 20px;
-  }
-
-  #menu{
-      display: block;
-      font-size: 30px;
-      cursor: pointer;
-  }
-
-        }
-
-
 /* social icon  */
 .img-icon{
      margin-top: 20px;
@@ -245,9 +141,8 @@ nav ul li a:not(.no-effect):hover::after{
     z-index: 2;
 } 
 
-/* ai  */
 
-#social{
+ #social{
     position: static;
     justify-content: center;
     flex-wrap: wrap;
@@ -351,32 +246,7 @@ nav ul li a:not(.no-effect):hover::after{
   margin-top: 40px;   
 }
 
- /* ai  */
- @media (max-width: 768px){
-
-  .abcontain{
-      flex-direction: column;
-      padding: 20px;
-      align-items: center;
-  }
-
-  #abimg{
-      width: 80%;
-  }
-
-  #abdetail{
-      margin: 20px 0;
-      max-width: 100%;
-      text-align: center;
-     overflow-wrap: break-word;
-    }
-
-  #resume{
-      display: block;
-      margin: 20px auto;
-  }
-
-          }
+ 
 
   /* skillls section  */
   .skill{
@@ -527,35 +397,8 @@ nav ul li a:not(.no-effect):hover::after{
 .certibtn:hover{
     box-shadow: 20px 0 20px #008cff55,-20px 0 30px #e100ffbb;
 }
+
    
-    /* ai  */
-
-    @media (max-width: 768px){
-
-  #main-skill{
-      flex-direction: column;
-      align-items:center;
-  }
-
-  .logoskill{
-      width: 100%;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: start;
-  }
-
-  .logoicon{
-      width: 90%;
-  }
-
-  .cppbarr,
-  .cppproo{
-      margin-left: 0;
-      width: 100%;
-  }
-
-     }
-
   /* education section  */
 
   #education11{
@@ -594,16 +437,7 @@ nav ul li a:not(.no-effect):hover::after{
 #year{
     font-size: 23px;  
 }
-   
-     @media (max-width: 768px){
-         
-        .edumain{
-             margin-left: 20px;
-        }
-
     
-    }
- 
  /* project section */
  .projectimage{
     display: flex;
@@ -652,6 +486,7 @@ nav ul li a:not(.no-effect):hover::after{
  #digital:not(.btdetails):hover{
     transform: scale(1.1);
  }
+
  /* project contain  */
  #digicont{
     padding: 20px;
@@ -696,37 +531,7 @@ nav ul li a:not(.no-effect):hover::after{
     z-index: 0;
     box-shadow: 20px 0 50px #008cff55,-40px 0 50px #e100ffbb;
 }
-
  
-  /* ai  */
-  @media (max-width: 768px){
-
-  .imgsize1{
-      width: 90%;
-      margin: 20px auto;
-  }
-
-  #digicont{
-      width: 100%;
-      margin: 0;
-      font-size: 15px;
-      display: flex;
-      flex-direction: column;
-        
-  }
-  #digicont p{
-
-    line-height: 20px;
-  }
-
-  .btdetails{
-      display: block;
-      margin: 20px auto;
-      margin-bottom: 20px;
-  }
-
-     }
-
  /* department section  */
 
    #memo1{
@@ -861,35 +666,7 @@ nav ul li a:not(.no-effect):hover::after{
     margin-bottom: 6%;
 }
 
-    /* ai  */
-    @media (max-width: 768px){
-
-  #descroll{
-      width: 90%;
-      height: 250px;
-  }
-
-  #deimg{
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .com{
-      width: 80%;
-  }
-
-  #ard,
-  #esp,
-  #ras{
-      width: 90%;
-      margin-left: 0;
-  }
-   #memo1{
-    display: inline-block;
-   }
-
-    }
-
+   
  /* footer design  */
 .foot{
     width: 100%;
@@ -991,39 +768,3 @@ margin-top: 40px;
     font-size: 15px;
     margin-left: 5px;
 }
-
- /* ai  */
- @media (max-width: 768px){
-
-  .foot{
-      height: auto;
-      width: auto;
-      padding: 30px;
-      border-radius: 40px 40px 0 0;
-  }
-
-  .contact,
-  .link,
-  .socialll{
-      margin: 0;
-      align-items: center;
-      text-align: center;
-  }
-   
-  #linkk{
-    margin-left: -30px;
-    margin-top: 40px;
-  }
-
-  .link{
-    margin-top: 40px;
-  }
-  .socialll{
-      margin-top: 100px;
-  }
-
-  .link a{
-      margin: 5px ;
-  }
-
-   }
