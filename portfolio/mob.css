@@ -48,7 +48,7 @@
         gap: 30px;
         align-items: center;
         margin-top: 20px;
-        right: 15%;
+        right: 17%;
         top: 1rem;
         justify-self: center;
         font-size: 20px;
@@ -61,7 +61,7 @@
     gap: 20px;
 }
  .headtext{
-    margin-right: 216px;
+    margin-right: 90%;
  }
 
  .headtext h1{
