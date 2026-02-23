@@ -102,18 +102,24 @@ nav ul li a:not(.no-effect):hover::after{
 }
  /* 3rd image */
  .second{
-     display: grid;
-    justify-content: end;
-    margin-bottom: -4px;
-   
- }
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 12px 0% 4px 0px;
+    flex-wrap: wrap;
+}
 
- #image{
-    transform: rotatey(180deg);
-    margin-top: 20px;
-    margin-left: 60vw ;    /* ai pro */
-    margin-bottom: 0px;
- }
+ 
+   #image{
+    transform: rotateY(180deg);
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+    align-self: end;
+    margin-top: 40%;
+    margin-bottom: -1.5%;
+    margin-left: 40%;
+}
 
  #addlogo{
     filter: drop-shadow(2px 1px 1px #ff0044b9);
@@ -160,22 +166,7 @@ nav ul li a:not(.no-effect):hover::after{
         justify-content: center;
     }
 
-    /* menu button  */
-    #menu{
-    display: flex;
-    margin-left: 70px;
-
-        }
-
-    /* sidebar at fix time  */
-    .sidebar{
-          width: 8rem;
-    }
-
-    .mainside:not(.main){
-        /* visibility: hidden; */
-    }
-
+    
     #address{
         margin-left: 60px;
     }
@@ -183,10 +174,14 @@ nav ul li a:not(.no-effect):hover::after{
         display: flex;
         flex-direction: column; 
         width: 150px;
-        margin-left: 200px;
+        margin-left: 1%;
     }
-    .so1{
-        display: none;
+    
+    .img-icon{
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        
     }
 }
 
@@ -223,6 +218,7 @@ nav ul li a:not(.no-effect):hover::after{
 /* social icon  */
 .img-icon{
      margin-top: 20px;
+     
 }
 .social{
     display: flex;
@@ -230,7 +226,8 @@ nav ul li a:not(.no-effect):hover::after{
    flex-direction: row; 
     position: relative;
     /* top: 65vh; */
-    top: 350px ;
+    top: 35em ;
+    right: 90%;
     animation: social-icon 3s ease-in-out 2s ;
     z-index: 2;
 } 
@@ -806,7 +803,7 @@ nav ul li a:not(.no-effect):hover::after{
 #resberry{
     background-image: url("./image/resberry\ pi.png");
 }
-#dehead{
+.dehead{
     margin-top: 310px;
     margin-left: 55px;
 }
