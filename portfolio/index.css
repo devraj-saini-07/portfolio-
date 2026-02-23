@@ -184,10 +184,12 @@ nav ul li a:not(.no-effect):hover::after{
         width: 150px;
         margin-left: 1%;
     } */
-    .social{
+   .social{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   /* ek ke niche ek */
     gap: 20px;
+    align-items: center;
+    margin-top: 20px;
 }
    .img-icon{
     display: flex;
