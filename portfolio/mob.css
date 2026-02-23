@@ -1,45 +1,21 @@
 @media (max-width: 745px){
   
-    body{
-        overflow-x: hidden;
-    }
-
-    .logo{
+ .logo{
         width: 100%;
         margin-left: 20%;
     }
 
-     /* .second{
-        flex-direction: column;
-        text-align: center;
-        padding: 100px 20px 20px;
-    } */
-
-    /* #image{
-        margin-top: 30px;
-        max-width: 250px;
-        margin-right: 1vw;
-        justify-content: space-between;
-    } */
-
-     /* ai  */
-     /* .second{
+.second{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-     }
-      */
-
-      .second{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 120px 8% 60px;
+    padding: 60px 20px 40px;
 }
          #image{
     width: 220px;
     margin: 20px 0;
+    
      }
 
     nav .mainside{
@@ -49,25 +25,26 @@
 
     
     #address{
-        margin-left: 60px;
+        margin-left: 0px;
     }
-    /* .social {
+ 
+      .social {
         display: flex;
-        flex-direction: column; 
-        width: 150px;
-        margin-left: 1%;
-    } */
-   .social{
+        flex-direction: row;
+        gap: 20px;
+        align-items: center;
+        margin-top: 20px;
+        right: 3%;
+        top: 1rem;
+        justify-self: center;
+        font-size: 18px;
+        transform: scale(0.5);
+    }
+  .img-icon{
     display: flex;
-    flex-direction: column;   /* ek ke niche ek */
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
-    align-items: center;
-    margin-top: 20px;
-}
-   .img-icon{
-    display: flex;
-    align-items: center;
-    gap: 40px;
 }
   }
 
@@ -99,7 +76,8 @@
       cursor: pointer;
   }
 
-        }
+     }
+
 
  @media (max-width: 768px){
 
@@ -126,6 +104,7 @@
   }
 
           }
+
  @media (max-width: 768px){
 
   #main-skill{
@@ -133,15 +112,19 @@
       align-items:center;
   }
 
-  .logoskill{
-      width: 100%;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: start;
-  }
+     .logoskill {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: self-start;
+        margin-left: 1px;
+    }
 
   .logoicon{
-      width: 90%;
+             width: 65%;
+        position: absolute;
+    }
   }
 
   .cppbarr,
@@ -150,7 +133,7 @@
       width: 100%;
   }
 
-     }
+     
 
        @media (max-width: 768px){
          
@@ -168,28 +151,28 @@
       margin: 20px auto;
   }
 
-  #digicont{
+    #digicont{
       width: 100%;
       margin: 0;
       font-size: 15px;
       display: flex;
       flex-direction: column;
-        
-  }
+      color: burlywood;
+    }
   #digicont p{
 
     line-height: 20px;
   }
 
-  .btdetails{
-      display: block;
-      margin: 20px auto;
-      margin-bottom: 20px;
-  }
+
+       .btdetails {
+        display: block;
+        margin: 79px;
+        margin-top: 56px;
 
      }
-
-      @media (max-width: 768px){
+    }
+ @media (max-width: 768px){
 
   #descroll{
       width: 90%;
@@ -210,21 +193,22 @@
   #ras{
       width: 90%;
       margin-left: 0;
+      font-size: 14px;
   }
    #memo1{
     display: inline-block;
    }
 
-    }
+  }
 
-     @media (max-width: 768px){
+  @media (max-width: 768px){
 
   .foot{
       height: auto;
       width: auto;
       padding: 30px;
       border-radius: 40px 40px 0 0;
-  }
+    }
 
   .contact,
   .link,
@@ -232,22 +216,26 @@
       margin: 0;
       align-items: center;
       text-align: center;
-  }
+    }
    
   #linkk{
     margin-left: -30px;
     margin-top: 40px;
   }
-
+ 
   .link{
     margin-top: 40px;
   }
   .socialll{
       margin-top: 100px;
   }
-
+ 
   .link a{
       margin: 5px ;
   }
+  #last{
+    background-color: yellow;
+    
+  }
 
-   }
+  }
