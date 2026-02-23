@@ -23,7 +23,8 @@
      }
 
      #phtext{
-        margin-top: -10%;
+        margin-top: -8%;
+
      }
 
     nav .mainside{
@@ -45,8 +46,8 @@
         right: 15%;
         top: 1rem;
         justify-self: center;
-        font-size: 18px;
-        transform: scale(0.5);
+        font-size: 20px;
+        transform: scale(0.7);
     }
   .img-icon{
     display: flex;
@@ -173,10 +174,10 @@
       
     }
     #billing{
-        margin-top: 110%;
+        margin-top: 120%;
     }
     #face{
-        margin-top: 110%;
+        margin-top: 120%;
     }
     .projectimage{
         gap: 100%;
@@ -243,7 +244,7 @@
 
   .foot{
       height: auto;
-      width: 100%;
+      width: 120%;
       padding: 30px;
       border-radius: 40px 40px 0 0;
     }
