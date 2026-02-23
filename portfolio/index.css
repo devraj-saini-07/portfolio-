@@ -150,12 +150,20 @@ nav ul li a:not(.no-effect):hover::after{
     } */
 
      /* ai  */
-     .second{
+     /* .second{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
      }
+      */
+
+      .second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 8% 60px;
+}
          #image{
     width: 220px;
     margin: 20px 0;
@@ -170,20 +178,23 @@ nav ul li a:not(.no-effect):hover::after{
     #address{
         margin-left: 60px;
     }
-    .social {
+    /* .social {
         display: flex;
         flex-direction: column; 
         width: 150px;
         margin-left: 1%;
-    }
-    
-    .img-icon{
-        display: flex;
-        flex-direction: column;
-        gap: 2%;
-        
-    }
+    } */
+    .social{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+   .img-icon{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+  }
 
 @media (max-width: 768px){
 
@@ -587,6 +598,7 @@ nav ul li a:not(.no-effect):hover::after{
         .edumain{
              margin-left: 20px;
         }
+
     
     }
  
@@ -695,14 +707,20 @@ nav ul li a:not(.no-effect):hover::after{
   #digicont{
       width: 100%;
       margin: 0;
-      font-size: 16px;
+      font-size: 15px;
       display: flex;
       flex-direction: column;
+        
+  }
+  #digicont p{
+
+    line-height: 20px;
   }
 
   .btdetails{
       display: block;
       margin: 20px auto;
+      margin-bottom: 20px;
   }
 
      }
