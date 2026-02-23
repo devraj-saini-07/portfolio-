@@ -19,13 +19,18 @@
          #image{
     width: 220px;
     margin: 20px 0;
-    
+     margin-left: -47%;
      }
 
+     #phicon{
+        /* transform: scale(0.4); */
+     }
      #phtext{
         margin-top: -8%;
+        gap: 25px;
 
      }
+
 
     nav .mainside{
         flex-wrap: wrap;
@@ -40,14 +45,14 @@
       .social {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 30px;
         align-items: center;
         margin-top: 20px;
         right: 15%;
         top: 1rem;
         justify-self: center;
         font-size: 20px;
-        transform: scale(0.7);
+        transform: scale(0.4);
     }
   .img-icon{
     display: flex;
