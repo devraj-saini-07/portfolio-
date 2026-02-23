@@ -443,7 +443,8 @@ nav ul li a:not(.no-effect):hover::after{
     flex-direction: column;
     margin-top: 40px;
     padding: 1px;
-    gap: 70px;
+    gap: 100px;
+    padding-bottom: 40px;
 
  }
  .imgsize1{
