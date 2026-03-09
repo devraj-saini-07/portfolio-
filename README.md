@@ -14,6 +14,6 @@ Writing objects: 100% (5/5), 523 bytes | 261.00 KiB/s, done.
 Total 5 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To https://github.com/devraj-saini-07/portfolio-.git
-   7ac5b5f..ebf34ea  main -> main
+ 7ac5b5f..ebf34ea  main -> main
 
 D:\vs code\.vscode\project>
