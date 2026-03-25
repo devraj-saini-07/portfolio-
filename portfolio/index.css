@@ -617,6 +617,7 @@ nav ul li a:not(.no-effect):hover::after{
   display: flex;
   flex-direction: row;
 
+   
 }
 #ardunio{
     background-image: url("./image/ardiuno.png");
