@@ -2,8 +2,23 @@
   
  .logo{
         width: 100%;
-        margin-left: 20%;
+        margin-left: 0%;
+        text-align: center;
     }
+    .container{
+        width: 90%;
+    }
+    .logo h2{
+        font-size: 30px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .navbar{
+        padding: 0;
+    }
+
+   
+   
 
 .second{
     display: flex;
