@@ -220,7 +220,7 @@ nav ul li a:not(.no-effect):hover::after{
     font-size: 18px;
     flex-wrap: wrap;
     margin-right: 80px;
-    margin-top: 100px;
+    margin-top: 200px;
 
 }
  #fontpre{
@@ -471,23 +471,48 @@ nav ul li a:not(.no-effect):hover::after{
  }
 
  #digital{
-    background-image: url(./image/unwatermarked_digital\ parking.png);
+    background-image: url(./image/digital\ parking.png);
     background-size: cover;
  }
 
  #billing{
-    background-image: url(./image/unwatermarked_shopmanage.png);
+    background-image: url(./image/shopmanage.png);
      background-size: cover;
  }
  #face{
-    background-image: url(./image/unwatermarked_face\ recognition.png);
+    background-image: url(./image/face\ recognition.png);
      background-size: cover;
 
  }
-  #billing:hover,#face:hover,
- #digital:not(.btdetails):hover{
+
+ /* New Projects - same design as existing projects */
+
+#water{
+    background-image: url(./image/water\ leakage\ detec.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#testiq{
+    background-image: url(./image/testiq.png);
+    background-size: cover;
+}
+
+#agro{
+    background-image: url(./image/agrorobo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+ #billing:hover,
+#face:hover,
+#digital:hover,
+#water:hover,
+#testiq:hover,
+#agro:hover {
     transform: scale(1.1);
- }
+}
 
  /* project contain  */
  #digicont{
