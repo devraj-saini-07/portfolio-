@@ -197,14 +197,14 @@
     }
 
     #billing{
-        margin-top: 120%;
+        margin-top: 150%;
     }
     #face{
-        margin-top: 120%;
+        margin-top: 150%;
     }
 
      #digital{
-        margin-top: 120%;
+        margin-top: 190%;
     }
     .projectimage{
          margin-bottom: 90%;
@@ -223,6 +223,7 @@
       flex-direction: column;
           margin-left: 0;
         margin-top: 100%;
+        
     }
   #digicont p{
 
@@ -251,7 +252,7 @@
     }
 
     #agro{
-        margin-top: 120%;
+        margin-top: 150%;
     }
 
 }
