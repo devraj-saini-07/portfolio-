@@ -68,19 +68,58 @@ if ("serviceWorker" in navigator) {
     ></script>
  
 
-       <script type="application/ld+json">
+  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Devraj Saini",
-  "url": "https://devraj07.netlify.app/",
-  "jobTitle": "Developer and Electronics Engineering Student",
-  "description": "Devraj Saini is a B.Tech Electronics and Communication Engineering student and developer from Bhopal, Madhya Pradesh, working on IoT, embedded systems, Java and web development.",
-  "sameAs": [
-    "https://www.linkedin.com/in/devrajsaini612",
-    "https://github.com/devraj-saini-07",
-    "https://www.instagram.com/devx_saini_07",
-    "https://www.hackerrank.com/profile/devrajsaini612"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://devraj07.netlify.app/#devraj-saini",
+      "name": "Devraj Saini",
+      "url": "https://devraj07.netlify.app/",
+      "image": "https://devraj07.netlify.app/image/devrajimage.jpeg",
+      "jobTitle": "Developer, IoT & Electronics Engineering Student",
+      "description": "Devraj Saini is a B.Tech Electronics and Communication Engineering student and developer from Bhopal, Madhya Pradesh. He works on IoT, embedded systems, electronics, Java, web development and smart technology projects.",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Bansal Institute of Science and Technology"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/devrajsaini612",
+        "https://github.com/devraj-saini-07",
+        "https://www.instagram.com/devx_saini_07",
+        "https://www.hackerrank.com/profile/devrajsaini612"
+      ],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://devraj07.netlify.app/"
+      }
+    },
+
+    {
+      "@type": "CreativeWork",
+      "@id": "https://water-leakage-detection-4777e.firebaseapp.com/#project",
+      "name": "Smart Water Leakage Monitoring System",
+      "url": "https://water-leakage-detection-4777e.firebaseapp.com/",
+      "description": "An IoT-based smart water monitoring and leakage detection system using ESP32, flow sensors, Firebase and Blynk. The system provides real-time monitoring, leakage alerts, role-based dashboard access and remote motor control.",
+      "creator": {
+        "@id": "https://devraj07.netlify.app/#devraj-saini"
+      },
+      "author": {
+        "@id": "https://devraj07.netlify.app/#devraj-saini"
+      },
+      "keywords": [
+        "Devraj Saini",
+        "Smart Water Leakage Monitoring System", "Water Leakage detection project",
+         "Devraj Saini Projects",
+         "devraj",
+        "IoT",
+        "ESP32",
+        "Embedded Systems",
+        "Electronics",
+        "Water Leakage Detection"
+      ]
+    }
   ]
 }
 </script>
